@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    max-height: 100px;
+}
+
+.nav-alignment {
+    text-align: left;
+}
+
+.nav-bg-clr {
+    background-color: #000000;
+}
+
+.tech-img {
+    margin-top: 5px;
+}
+
+.banner-heading {
+    color: #000000;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: underline;
+    text-decoration-color: #29144d;
+}
+
+.para-banning {
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.para-banning2 {
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.conference-image {
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.pink-box {
+    background-color: #f01d59;
+    height: 40%;
+    width: 100%;
+    margin-top: 30px;
+
+
+}
+
+.box-heading {
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 30px;
+
+}
+
+.box-para {
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+
+.tech-card {
+    background-color: #D3D3D3;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px
+}
+
+.card-img {
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.form-para {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.border-style {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #000000;
+    margin: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 400px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.star {
+    color: red;
+}
+
+.Other-info {
+    background-color: #d0d5db;
+}
+
+.footer-heading {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.footer-para {
+    font-size: 10px;
+    padding: 4px;
+    margin: 5px;
+}
+
+.unorder-list {
+    font-size: 10px;
+    list-style: none;
+    padding: 4px;
+    margin: 5px;
+}
+
+.copy-right {
+    background-color: #000000;
+}
+
+.copy-para {
+    font-size: 10px;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}

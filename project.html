@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg-clr ">
+        <a class="navbar-brand d-flex flex-row " href="#">
+            <img src="https://rubixe.com/assets/img/logo/white-rubixe-logo.png" width="90px" height="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto nav-alignment">
+                <a class="nav-link active custum-nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-link active custum-nav-link" href="#">SERVICES</a>
+                <a class="nav-link active custum-nav-link" href="#">PRODUCTS</a>
+                <a class="nav-link active custum-nav-link" href="#">AI INTERNSHIP</a>
+                <a class="nav-link active custum-nav-link" href="#">CAREER</a>
+                <a class="nav-link active custum-nav-link" href="#">BLOG</a>
+                <a class="nav-link active custum-nav-link" href="#">ABOUT</a>
+                <a class="nav-link active custum-nav-link" href="#">CONTACT US</a>
+            </div>
+        </div>
+
+    </nav>
+    <div class="cointainer">
+        <img src="https://res.cloudinary.com/dtsdbgfcj/image/upload/v1676631971/Capture_rkkjol.jpg" class="tech-img" width="100%" />
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-column ">
+            <h4 class="banner-heading">WHO WE ARE</h4>
+            <p class="para-banning">
+                Rubixe is a global technology company specializing in
+                disruptive technologies -<br /> Artificial Inteligence (AI), Machine Learning,
+                Robotic Process Automation (RPA),<br /> BlockChain, and Internet of Things (IoT).</p>
+            <p class="para-banning2">Rubixe mission is to enable businesses to leverage the full potential of disruptive<br />
+                technologies and stay competitive in the market, turning compex challenges into <br /> solutions,
+                providing a strategic competitive advantage that are more efficient,effective<br /> and predictable.</p>
+            <a href="https://rubixe.com/">Click here for further info</a>
+        </div>
+        <img src="https://c0.wallpaperflare.com/preview/811/935/645/adults-analysis-brainstorming-collaboration.jpg" class="conference-image" />
+    </div>
+
+
+    <div class="pink-box ">
+        <h4 class="box-heading">WHERE WE STARTED</h4>
+        <p class="box-para">
+            We started in 2015, With a passionate team who want to bring game-changing solutions through disrupting technologies. We expertise in <br />
+            delivering enterprise-level solutions the field of Artificial Intelligence (AI). Cyber Security Robotic Process Automation (RPA), Internet of Things <br />
+            (IoT), and BlockChain.technology.</p>
+    </div>
+    <div class="tech-card d-flex flex-column justify-content-center ">
+        <h1 class="card-heading">TECH FOR TEENS - RUBIXE INITIATIVE</h1>
+        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*TSfbVZfzkLTDFT46U4-wbQ.png" class="card-img" />
+    </div>
+    <div class="border-style">
+        <div class="container d-flex flex-row ">
+            <div class="container d-flex flex-column justify-content-center">
+                <h1 class="form-heading">Get In Touch</h1>
+                <p class="form-para">Please complete the form and we'll get you back</p>
+            </div>
+            <div class="vertical-line">
+
+            </div>
+            <form id="myForm" class="mr-5">
+                <div class="mb-3 mt-3">
+                    <label for="name">Name<span class="star">*</span></label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name" />
+                    <p id="nameErrMsg" class="error-message"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email<span class="star">*</span></label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter E-mail" />
+                    <p id="emailErrMsg" class="error-message"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="mobile-number">Mobile-Number</label>
+                    <input type="text" class="form-control" id="mobile" placeholder="Mobile-Number" />
+                    <p id="mobileErrMsg" class="error-message"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="status">Working Status<span class="star">*</span></label>
+                    <select id="status" class="form-control">
+                        <option value="Active">Active</option>
+                        <option value="Inactive">Inactive</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <h1 class="gender-field-heading">Gender</h1>
+                    <input type="radio" name="gender" id="genderMale" value="Male" checked />
+                    <label for="genderMale">Male</label>
+                    <input type="radio" name="gender" id="genderFemale" value="Female" class="ml-2" />
+                    <label for="genderFemale">Female</label>
+                </div>
+
+                <button class="btn btn-primary m-2">Register Now</button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="Other-info d-flex flex-row justify-content-center ">
+        <div class="Other-info d-flex flex-column">
+            <h1 class="footer-heading">About Us</h1>
+            <p class="footer-para">Rubixe™ is a global technology company specializing in disruptive<br /> technologies –
+                Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA),<br />
+                BlockChain and Internet of Things (IoT). Rubixe mission to enable businesses to leverage <br />
+                the full potential of disruptive technologies to stay competitive in the market.</p>
+
+        </div>
+        <div class="Other-info d-flex flex-column">
+            <h1 class="footer-heading">Menus</h1>
+            <ul class="unorder-list">
+                <li>Home</li>
+                <li>services</li>
+                <li>career</li>
+            </ul>
+        </div>
+        <div class="Other-info d-flex flex-column">
+            <h1 class="footer-heading">Learn More</h1>
+            <ul class="unorder-list">
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="Other-info d-flex flex-column">
+            <h1 class="footer-heading">Address</h1>
+            <p class="footer-para">Novel Tech Park, 1st Floor, Hosur Rd, Kudlu gate, Bengaluru, Karnataka 560068<br />
+                Phone: 0804-717-8999<br />
+                Email: hi@rubixe.com</p>
+            Social Media
+            <div class="d-flex flex-row justify-content-center ">
+                <div class="follow-us-icon-container mr-2">
+                    <i class="fab fa-instagram icon"></i>
+                </div>
+                <div class="follow-us-icon-container">
+                    <i class="fab fa-facebook icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p class="copy-para">Copyright 2017 - 2022 | Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD. | All Rights Reserved</p>
+    </div>
+
+
+
+</body>
+
+</html>
